@@ -6,7 +6,7 @@ title: Workshop
 - Rust
 - C
 
-## AI
+## AI Tools
 - Darknet
 - Tensorflow
 
