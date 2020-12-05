@@ -2,19 +2,19 @@
 title: Workshop
 ---
 
-## Programming
+## Bahasa Pemrograman
 - Rust
 - C
 
-## AI Tools
+## Kecerdasan Buatan
 - Darknet
 - Tensorflow
 
-## Web Development
+## Pembangunan Aplikasi Web
 - Warp - Rust Web Framework
 - React - Javascript Framework
 
-## Mobile Development
+## Pembangunan Aplikasi Smartphone
 - Flutter
 
 ## Multimedia
