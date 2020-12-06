@@ -3,7 +3,7 @@ title: Workshop
 ---
 
 ## Bahasa Pemrograman
-- Rust
+- [Rust](/workshops/programming/rust/)
 - C
 
 ## Kecerdasan Buatan
@@ -11,7 +11,7 @@ title: Workshop
 - Tensorflow
 
 ## Pembangunan Aplikasi Web
-- Warp - Rust Web Framework
+- [Warp - Rust Web Framework](/workshops/web-development/warp/)
 - React - Javascript Framework
 
 ## Pembangunan Aplikasi Smartphone
