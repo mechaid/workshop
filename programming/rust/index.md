@@ -50,6 +50,11 @@ pub fn bersuara(a: &impl Benda) {
 
 ## Types
 
+Type pada setiap item di Rust menunjukan operasi-operasi yang dapat dilakukan item tersebut, dan bagaimana interpretasi dari memory-nya.
+
+Referensi:
+- https://doc.rust-lang.org/reference/types.html
+
 ### Deklarasi Type
 
 ### Type Alias
