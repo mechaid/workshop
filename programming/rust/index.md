@@ -21,7 +21,11 @@ Ginian apa artinya di Rust
 ## Generic
 - Variabel untuk generic itu bebas gak harus E dan T
 - Ada type parameter ada value parameter
-- Salah satu kegunaannya adalah agar tipe dari parameter input output function menjadi dinamis, tidak terikat type tertentu
+- Salah satu kegunaannya adalah agar tipe dari parameter input output **Function**, maupun atribut dari **Struct** menjadi dinamis, tidak terikat type tertentu
+- Generic menggunakan angle bracket \<\>
+
+- https://doc.rust-lang.org/book/ch10-01-syntax.html
+- 
 
 https://stackoverflow.com/questions/58027416/what-are-the-brackets-before-a-function-in-rust
 
