@@ -41,7 +41,7 @@ https://stackoverflow.com/questions/58027416/what-are-the-brackets-before-a-func
 
 Trait dapat menjadi parameter function
 ```rust
-pub fn bersuara(a: impl Binatang) {
+pub fn bersuara(a: &impl Benda) {
     println!("Bersuara seperti ini {}", a.suara());
 }
 ```
