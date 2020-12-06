@@ -19,7 +19,9 @@ Ginian apa artinya di Rust
 ## Pointer
 
 ## Generic
-Variabel untuk generic itu bebas gak harus E dan T
+- Variabel untuk generic itu bebas gak harus E dan T
+- Ada type parameter ada value parameter
+- Salah satu kegunaannya adalah agar tipe dari parameter input output function menjadi dinamis, tidak terikat type tertentu
 
 https://stackoverflow.com/questions/58027416/what-are-the-brackets-before-a-function-in-rust
 
