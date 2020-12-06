@@ -39,6 +39,13 @@ https://stackoverflow.com/questions/58027416/what-are-the-brackets-before-a-func
 
 ## Trait
 
+Trait dapat menjadi parameter function
+```rust
+pub fn bersuara(a: impl Binatang) {
+    println!("Bersuara seperti ini {}", a.suara());
+}
+```
+
 ## Attributes
 
 ## Types
