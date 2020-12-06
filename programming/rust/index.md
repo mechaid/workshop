@@ -24,7 +24,7 @@ Ginian apa artinya di Rust
 - Salah satu kegunaannya adalah agar tipe dari parameter input output **Function**, maupun atribut dari **Struct** menjadi dinamis, tidak terikat type tertentu
 - Generic menggunakan angle bracket \<\>
 
-```
+```rust
 struct Koordinat<TipeX> {
     x: TipeX,
     y: TipeX,
