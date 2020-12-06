@@ -19,6 +19,7 @@ Ginian apa artinya di Rust
 ## Pointer
 
 ## Generic
+- Fungsi utama dari generic adalah membuat type pada function, struct, enum, method menjadi dinamis
 - Variabel untuk generic itu bebas gak harus E dan T
 - Ada type parameter ada value parameter
 - Salah satu kegunaannya adalah agar tipe dari parameter input output **Function**, maupun atribut dari **Struct** menjadi dinamis, tidak terikat type tertentu
