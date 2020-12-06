@@ -54,6 +54,11 @@ pub fn bersuara(a: &impl Benda) {
 
 ### Type Alias
 
+Dapat digunakan untuk mempersingkat dan menyederhanakan type. Contoh :
+```rust
+type DBCon = Connection<PgConnectionManager<NoTls>>;
+```
+
 ### Option
 
 ### Result
