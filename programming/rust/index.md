@@ -11,6 +11,11 @@ https://doc.rust-lang.org/rust-by-example/
 
 Aneh-aneh di Rust:
 
+'''rust
+Connection<PgConnectionManager<NoTls>>
+'''
+Ginian apa artinya di Rust
+
 ## Pointer
 
 ## Generic
