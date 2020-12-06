@@ -11,9 +11,9 @@ https://doc.rust-lang.org/rust-by-example/
 
 Aneh-aneh di Rust:
 
-'''rust
+```rust
 Connection<PgConnectionManager<NoTls>>
-'''
+```
 Ginian apa artinya di Rust
 
 ## Pointer
@@ -23,6 +23,13 @@ Ginian apa artinya di Rust
 - Ada type parameter ada value parameter
 - Salah satu kegunaannya adalah agar tipe dari parameter input output **Function**, maupun atribut dari **Struct** menjadi dinamis, tidak terikat type tertentu
 - Generic menggunakan angle bracket \<\>
+
+```
+struct Koordinat<TipeX> {
+    x: TipeX,
+    y: TipeX,
+}
+```
 
 - https://doc.rust-lang.org/book/ch10-01-syntax.html
 - 
