@@ -19,6 +19,8 @@ Ginian apa artinya di Rust
 ## Pointer
 
 ## Generic
+Variabel untuk generic itu bebas gak harus E dan T
+
 https://stackoverflow.com/questions/58027416/what-are-the-brackets-before-a-function-in-rust
 
 ## Trait
