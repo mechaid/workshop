@@ -52,6 +52,8 @@ pub fn bersuara(a: &impl Benda) {
 
 ### Deklarasi Type
 
+### Type Alias
+
 ### Option
 
 ### Result
