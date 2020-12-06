@@ -14,6 +14,7 @@ Aneh-aneh di Rust:
 ## Pointer
 
 ## Generic
+https://stackoverflow.com/questions/58027416/what-are-the-brackets-before-a-function-in-rust
 
 ## Trait
 
@@ -26,3 +27,5 @@ Aneh-aneh di Rust:
 ### Option
 
 ### Result
+
+## Ownership
