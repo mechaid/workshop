@@ -10,3 +10,5 @@ tags: rust
 ## Pointer
 
 ## Generic
+
+## Trait
