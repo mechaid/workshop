@@ -7,6 +7,8 @@ course-parent-url: ../
 tags: rust
 ---
 
+https://doc.rust-lang.org/rust-by-example/
+
 Aneh-aneh di Rust:
 
 ## Pointer
