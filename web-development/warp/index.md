@@ -15,3 +15,5 @@ title: Warp - Rust Web Framework
 
 ### Method : or\<F\>(self, other : F) -\> Or\<Self, F\> 
 - Membentuk Filter baru yang menerapkan salah satu dari Filter yang ada
+
+### Method : map\<F\>(self, fun: F) -\> Map\<Self, F\> 
