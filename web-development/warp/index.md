@@ -17,3 +17,9 @@ title: Warp - Rust Web Framework
 - Membentuk Filter baru yang menerapkan salah satu dari Filter yang ada
 
 ### Method : map\<F\>(self, fun: F) -\> Map\<Self, F\> 
+
+### Method : boxed
+
+## Struct : Rejection
+
+## Struct : BoxedFilter
