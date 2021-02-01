@@ -19,4 +19,4 @@ title: Workshop
 
 ## Multimedia
 - Inkscape
-- Kdenlive
+- [Kdenlive - Video Editing](/workshops/multimedia/kdenlive/)
