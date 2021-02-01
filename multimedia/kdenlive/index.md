@@ -14,3 +14,6 @@ tags: [kdenlive]
 | S | Selection Tool. Memilih bagian dari video |
 | X | Razor Tool. Memotong bagian dari video |
 | Shift + R | Cut Clip. Memilih bagian dari video pada saat yang ditinjau | 
+
+Referensi
+- https://userbase.kde.org/Kdenlive/Manual/Useful_Information/Shortcuts
