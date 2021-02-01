@@ -64,3 +64,23 @@ type DBCon = Connection<PgConnectionManager<NoTls>>;
 ## Ownership
 
 ## Future
+
+# Contoh Script dan Cara Memahaminya
+
+## Contoh 1
+
+```rust
+impl<F> FilterBase for BoxingFilter<F>
+where
+    F: Filter,
+    F::Future: Send + 'static,
+{
+    type Extract = F::Extract;
+    type Error = F::Error;
+    type Future = Pin<Box<dyn Future<Output = Result<Self::Extract, Self::Error>> + Send>>;
+
+    fn filter(&self, _: Internal) -> Self::Future {
+        Box::pin(self.filter.filter(Internal).into_future())
+    }
+}
+```
