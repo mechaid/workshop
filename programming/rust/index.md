@@ -40,6 +40,10 @@ pub fn bersuara(a: &impl Benda) {
     println!("Bersuara seperti ini {}", a.suara());
 }
 ```
+## Struct
+
+### Impl
+Mendefinisikan method untuk Struct dan Enum
 
 ## Attributes
 
