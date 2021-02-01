@@ -9,6 +9,8 @@ tags: rust
 
 https://doc.rust-lang.org/rust-by-example/
 
+# Fitur Bahasa
+
 ## Pointer
 
 ## Generic
@@ -84,3 +86,5 @@ where
     }
 }
 ```
+
+- Mengimplementasikan Trait FilterBase ke Struct BoxingFilter
