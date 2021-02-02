@@ -46,8 +46,17 @@ mod perusahaan {
 }
 ```
 
-### Cara Akses Module
+### Cara Mengakses Module
 
+- https://doc.rust-lang.org/reference/items/modules.html#module-source-filenames
+
+Ada beberapa cara untuk mengakses Module. 
+
+| Alamat Module yang ditulis di script | Alamat di Filesystem | Isi File |
+| --- | --- | --- |
+| crate | src/lib.rs | mod jualan_baso; |
+| crate::jualan_baso | src/jualan_baso.rs | mod persiapan; |
+| crate::jualan_baso::persiapan | src/jualan_baso/persiapan.rs | |
 
 
 ## Pointer
