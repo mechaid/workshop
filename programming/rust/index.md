@@ -94,3 +94,8 @@ where
 - Mengimplementasikan Trait FilterBase ke Struct BoxingFilter, dengan batasan :
   - F adalah Struct / Enum yang mengimplementasikan Trait Filter
   - F::Future adalah Struct / Enum yang mengimplementasikan Trait Send dan 'static
+  
+- Mendefinisikan Type Alias :
+  - F::Extract sebagai Type Extract
+  - F::Error sebagai Type Error
+  - Pin<Box<dyn Future<Output = Result<Self::Extract, Self::Error>> + Send>> sebagai Type Future
