@@ -11,6 +11,12 @@ https://doc.rust-lang.org/rust-by-example/
 
 # Fitur Bahasa
 
+## Module
+- https://doc.rust-lang.org/reference/items/modules.html
+- https://doc.rust-lang.org/rust-by-example/mod.html
+
+Module adalah wadah untuk kumpulan Item (Struct, Function, Trait, Impl, Module lainnya).
+
 ## Pointer
 
 ## Generic
@@ -28,7 +34,6 @@ struct Koordinat<TipeX> {
 ```
 
 - https://doc.rust-lang.org/book/ch10-01-syntax.html
-- 
 
 https://stackoverflow.com/questions/58027416/what-are-the-brackets-before-a-function-in-rust
 
@@ -64,7 +69,6 @@ let penduduk1 = Penduduk {
     umur: 24,
 }
 ```
-
 
 ### Impl
 Mendefinisikan method untuk Struct dan Enum
