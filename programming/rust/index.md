@@ -19,6 +19,13 @@ Module adalah wadah untuk kumpulan Item (Struct, Function, Trait, Impl, Module l
 
 ```rust
 mod perusahaan {
+
+    pub struct Karyawan {
+        pub nama: String,
+        pub jabatan: String,
+        gaji: i32,
+    }
+    
     pub fn lihat_detail_perusahaan() {
         println!("Lihat detail perusahaan");
     }
