@@ -91,4 +91,6 @@ where
 }
 ```
 
-- Mengimplementasikan Trait FilterBase ke Struct BoxingFilter
+- Mengimplementasikan Trait FilterBase ke Struct BoxingFilter, dengan batasan :
+  - F adalah Struct / Enum yang mengimplementasikan Trait Filter
+  - F::Future adalah Struct / Enum yang mengimplementasikan Trait Send dan 'static
