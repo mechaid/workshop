@@ -41,6 +41,9 @@ pub fn bersuara(a: &impl Benda) {
 }
 ```
 ## Struct
+
+- https://doc.rust-lang.org/stable/rust-by-example/custom_types/structs.html
+
 Struct adalah tipe data khusus untuk mengelompokkan data yang saling terkait. Ada tiga bentuk penggunaan Struct yaitu sebagai :
 - Tuple
 - Struct tradisional seperti pada bahasa C. Terdiri atas Field dengan Key dan Value tipe data tertentu.
