@@ -41,6 +41,19 @@ pub fn bersuara(a: &impl Benda) {
 }
 ```
 ## Struct
+Struct adalah tipe data khusus yang dapat mewadahi beragam tipe data yang saling terkait. Ada tiga bentuk penggunaan Struct yaitu sebagai :
+- Tuple
+- Struct tradisional seperti pada bahasa C
+- Unit, struct tanpa atribut data
+
+```rust
+struct Penduduk {
+    nama: String,
+    jenis_kelamin: i32,
+    umur: i32,
+}
+```
+
 
 ### Impl
 Mendefinisikan method untuk Struct dan Enum
