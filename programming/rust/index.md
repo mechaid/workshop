@@ -33,7 +33,7 @@ struct Koordinat<TipeX> {
 https://stackoverflow.com/questions/58027416/what-are-the-brackets-before-a-function-in-rust
 
 ## Trait
-
+- Trait adalah kumpulan method yang dapat dikaitkan pada Struct
 Trait dapat menjadi parameter function
 ```rust
 pub fn bersuara(a: &impl Benda) {
