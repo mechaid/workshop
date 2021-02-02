@@ -41,16 +41,32 @@ pub fn bersuara(a: &impl Benda) {
 }
 ```
 ## Struct
-Struct adalah tipe data khusus yang dapat mewadahi beragam tipe data yang saling terkait. Ada tiga bentuk penggunaan Struct yaitu sebagai :
+Struct adalah tipe data khusus untuk mengelompokkan data yang saling terkait. Ada tiga bentuk penggunaan Struct yaitu sebagai :
 - Tuple
-- Struct tradisional seperti pada bahasa C
+- Struct tradisional seperti pada bahasa C. Terdiri atas Field dengan Key dan Value tipe data tertentu.
 - Unit, struct tanpa atribut data
 
 ```rust
+// Pendefinisian Struct (Struct definition)
+
+// Struct tradisional
 struct Penduduk {
     nama: String,
     jenis_kelamin: i32,
     umur: i32,
+}
+
+// Struct unit
+struct Bahasa;
+
+// Struct tuple
+struct LongLat(f32, f32);
+
+// Penggunaan Struct (Struct instantiation)
+let penduduk1 = Penduduk {
+    nama: String::from("Lamsijan"),
+    jenis_kelamin: 1,
+    umur: 24,
 }
 ```
 
