@@ -32,14 +32,6 @@ struct Koordinat<TipeX> {
 
 https://stackoverflow.com/questions/58027416/what-are-the-brackets-before-a-function-in-rust
 
-## Trait
-- Trait adalah kumpulan method yang dapat dikaitkan pada Struct
-Trait dapat menjadi parameter function
-```rust
-pub fn bersuara(a: &impl Benda) {
-    println!("Bersuara seperti ini {}", a.suara());
-}
-```
 ## Struct
 
 - https://doc.rust-lang.org/stable/rust-by-example/custom_types/structs.html
@@ -76,6 +68,15 @@ let penduduk1 = Penduduk {
 
 ### Impl
 Mendefinisikan method untuk Struct dan Enum
+
+## Trait
+- Trait adalah kumpulan method yang dapat dikaitkan pada Struct
+- Trait dapat menjadi parameter function
+```rust
+pub fn bersuara(a: &impl Benda) {
+    println!("Bersuara seperti ini {}", a.suara());
+}
+```
 
 ## Attributes
 
