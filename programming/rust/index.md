@@ -17,6 +17,32 @@ https://doc.rust-lang.org/rust-by-example/
 
 Module adalah wadah untuk kumpulan Item (Struct, Function, Trait, Impl, Module lainnya).
 
+```rust
+mod perusahaan {
+    pub fn lihat_detail_perusahaan() {
+        println!("Lihat detail perusahaan");
+    }
+    
+    fn lihat_rahasia_perusahaan() {
+        println!("Lihat rahasia perusahaan");
+    }
+    
+    mod divisi_marketing {
+        pub fn lihat_iklan_perusahaan() {
+            println!("Lihat iklan perusahaan");
+        }
+        
+        fn menyiapkan_strategi_marketing() {
+            println!("Menyiapkan strategi marketing");
+        }
+    }
+}
+```
+
+### Cara Akses Module
+
+
+
 ## Pointer
 
 ## Generic
