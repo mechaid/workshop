@@ -149,6 +149,8 @@ type DBCon = Connection<PgConnectionManager<NoTls>>;
 
 ## Ownership
 
+## Macros
+
 ## Future
 
 # Contoh Script dan Cara Memahaminya
