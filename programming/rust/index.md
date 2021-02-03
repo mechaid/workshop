@@ -62,11 +62,12 @@ Ada beberapa cara untuk mengakses Module.
 ## Pointer
 
 ## Generic
-- Fungsi utama dari generic adalah membuat type pada function, struct, enum, method menjadi dinamis
+- Fungsi utama dari generic adalah membuat type yang digunakan di dalam function, struct, enum, method menjadi dinamis
 - Variabel untuk generic itu bebas gak harus E dan T
 - Ada type parameter ada value parameter
 - Salah satu kegunaannya adalah agar tipe dari parameter input output **Function**, maupun atribut dari **Struct** menjadi dinamis, tidak terikat type tertentu
 - Generic menggunakan angle bracket \<\>
+- Dalam implementasi penggunaan generic, untuk tahu bagaimana type yang didefinisikan digunakan, perlu melihat dokumentasi item nya terlebih dahulu untuk menelusuri bagaimana type tersebut digunakan
 
 ```rust
 struct Koordinat<TipeX> {
