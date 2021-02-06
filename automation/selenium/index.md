@@ -8,6 +8,7 @@ tags: [selenium]
 ---
 
 https://www.selenium.dev/documentation/en/
+https://selenium-python.readthedocs.io/installation.html
 
 # Cara Penggunaan
 
