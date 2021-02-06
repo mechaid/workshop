@@ -43,4 +43,4 @@ https://www.selenium.dev/documentation/en/webdriver/waits/
 # Vendor Web Browser
 
 ## Chrome
-- [List argumen chrome](https://peter.sh/experiments/chromium-command-line-switches/)
+- [List argumen cli chromium](https://peter.sh/experiments/chromium-command-line-switches/)
