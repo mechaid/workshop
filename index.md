@@ -20,3 +20,6 @@ title: Workshop
 ## Multimedia
 - Inkscape
 - [Kdenlive - Video Editing](/workshops/multimedia/kdenlive/)
+
+## Otomasi
+- [Selenium Untuk Otomasi Browsing Web](/workshops/automation/selenium/)
