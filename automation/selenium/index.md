@@ -12,6 +12,10 @@ https://selenium-python.readthedocs.io/installation.html
 
 # Cara Penggunaan
 
+## Instansiasi WebDriver
+- WebDriver :
+  - Chrome()
+
 ## Navigasi ke URL yang Diinginkan
 - WebDriver :
   - get(alamat_url)
@@ -36,3 +40,7 @@ https://www.selenium.dev/documentation/en/webdriver/browser_manipulation/
 ## WAIT, Menunggu Elemen Muncul
 https://www.selenium.dev/documentation/en/webdriver/waits/
 
+# Vendor Web Browser
+
+## Chrome
+- [List argumen chrome](https://peter.sh/experiments/chromium-command-line-switches/)
