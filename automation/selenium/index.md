@@ -8,3 +8,12 @@ tags: [selenium]
 ---
 
 https://www.selenium.dev/documentation/en/
+
+# Cara Penggunaan
+
+## Mencari Elemen 
+- WebDriver :
+  - get(alamat_url)
+- WebElement :
+  - findElement(konfigurasi_selector)
+  - findElements(konfigurasi_selector)
