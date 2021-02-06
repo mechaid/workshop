@@ -22,4 +22,4 @@ title: Workshop
 - [Kdenlive - Video Editing](/workshops/multimedia/kdenlive/)
 
 ## Otomasi
-- [Selenium Untuk Otomasi Browsing Web](/workshops/automation/selenium/)
+- [Selenium Untuk Otomasi Jelajah Web](/workshops/automation/selenium/)
