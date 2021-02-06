@@ -11,9 +11,27 @@ https://www.selenium.dev/documentation/en/
 
 # Cara Penggunaan
 
-## Mencari Elemen 
+## Navigasi ke URL yang Diinginkan
 - WebDriver :
   - get(alamat_url)
+  
+## Navigasi ke Window yang Diinginkan
+- WebDriver :
+  - switchTo() :
+    - newWindow()
+  - close()
+  - quit()
+
+## Mengambil Screenshot
+https://www.selenium.dev/documentation/en/webdriver/browser_manipulation/
+
+## Mencari Elemen 
+- WebDriver :
+  - getTitle()
 - WebElement :
   - findElement(konfigurasi_selector)
   - findElements(konfigurasi_selector)
+
+## WAIT, Menunggu Elemen Muncul
+https://www.selenium.dev/documentation/en/webdriver/waits/
+
